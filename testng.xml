@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Krishna/IdeaProjects/krishna/src/xml">
+        <classes>
+            <class name="xml.TestNGProject">
+                <methods>
+                    <include name="titleTest"/>
+                    <include name="logoTest"/>
+                </methods>
+            </class>
+            <class name="xml.Count">
+                <methods>
+                    <include name="countImg"/>
+                    <include name="countButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
